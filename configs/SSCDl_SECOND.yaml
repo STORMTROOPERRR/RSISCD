@@ -1,0 +1,22 @@
+
+'gpu': True
+'gpu-id': '0'
+
+'NET_NAME': 'SSCDl'
+'DATA_NAME': 'SECOND'
+
+'ss_loss': 'ce'
+'cr_loss': 'similarity'
+
+'train_batch_size': 8
+'val_batch_size': 8
+'epochs': 50
+
+'lr': 0.1
+'lr_strategy': 'default'
+'lr_decay_power': 1.5
+
+'weight_decay': 5e-4
+'momentum': 0.9
+
+'print_freq': 50
